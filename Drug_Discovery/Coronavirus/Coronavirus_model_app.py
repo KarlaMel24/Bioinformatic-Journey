@@ -1,3 +1,4 @@
+#The creatin ot this app is thanks to Chanin Nantasenamat (Data Professor) https://youtube.com/dataprofessor
 import streamlit as st
 import pandas as pd
 from PIL import Image
