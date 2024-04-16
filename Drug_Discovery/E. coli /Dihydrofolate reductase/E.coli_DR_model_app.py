@@ -51,8 +51,6 @@ This app allows you to predict the bioactivity towards inhibting the Dihydrofola
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
     st.sidebar.markdown("""
-[Example input file](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_acetylcholinesterase.txt)
-""")
 
 if st.sidebar.button('Predict'):
     load_data = pd.read_table(uploaded_file, sep=' ', header=None)
